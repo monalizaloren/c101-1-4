@@ -1,14 +1,6 @@
-const firebaseConfig = {
-  apiKey: "AIzaSyCgRnbmUKPG84OFSRrIlHnoWHcCnQNS9Ek",
-  authDomain: "teste93-97.firebaseapp.com",
-  databaseURL: "https://teste93-97-default-rtdb.firebaseio.com",
-  projectId: "teste93-97",
-  storageBucket: "teste93-97.appspot.com",
-  messagingSenderId: "199592495195",
-  appId: "1:199592495195:web:6f8e0da06238ada2d0d77e"
-};
+//Inicialize o firebase
 
-// Initialize Firebase
+
 firebase.initializeApp(firebaseConfig);
 //Utilize o código 'localStorage.getItem' para pegar o nome do usuário dentro do localStorage
 
